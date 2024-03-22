@@ -1,0 +1,46 @@
+header{
+   height: 80px;
+   background-color: #FFFAF5;
+   nav{
+      ul{
+         li{
+            a{
+               color: #241400;
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 23.54px;
+            }
+         }
+      }
+      .inputer{
+         position: relative;
+         img{
+            position: absolute;
+            left: 0px;
+            top: 6px;
+         }
+         input{
+            border: none;
+            outline: none;
+            border-bottom: 1px #69676496 solid;
+            width: 150px;
+            padding-left: 20px;
+            background: transparent;
+         }
+      }
+      .mobile-menu{
+         display: none;
+      }
+   }
+}
+@media only screen and (max-width: 992px){
+   .favourites img{
+      width: 25px;
+      background-color: #fff;
+
+   }
+   .favourites .bottom-peak{
+      width: 9px;
+   }
+
+}

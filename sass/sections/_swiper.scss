@@ -1,0 +1,84 @@
+.swiper {
+   width: 70%;
+   height: 100%;
+ }
+ .swiper__nav__title{
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 49.05px;
+   color: #241400;
+}
+#swiper{
+   background-color: #FFFAF5;
+   .swiper__nav{
+      height: 70px;
+      ul{
+         margin-right: 150px;
+         li{
+            a{
+               font-weight: 400;
+               font-size: 13px;
+               line-height: 25px;
+               color: #241400;
+            }
+         }
+      }
+   }
+   .mySwiper{
+      padding-top: 50px;
+      .slider{
+            .card{
+               box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+               width: 184px;
+               background-color: #fff;
+               border: none;
+               padding: 20px;
+               img{
+                  width: 134px;
+               }
+               h4{
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 35px;
+               }
+               h5{
+                  margin-bottom: 0;
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 1px;
+               }
+               p{
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 23px;
+               }
+               .btn{
+                  background-color: #E16A00;
+               }
+               .actions{
+                  gap:2px;
+                  img{
+                     width: 29px;
+                  }
+               }
+            }
+      }
+      // .right{
+      //    position: absolute;
+      //    width: 20px;
+      //    top: 150px;
+      //    right: 70px;
+      //    z-index: 999999;
+      // }
+      // .left{
+      //    position: absolute;
+      //    width: 0px;
+      //    top: 150px;
+      //    left: -50px;
+      // }
+
+   }
+.range{
+   width: 100%;
+}
+}
